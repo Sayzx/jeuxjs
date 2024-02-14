@@ -1,0 +1,7 @@
+if (username === 'admin' && password === 'admin') {
+    // Connexion réussie, définir un item dans localStorage
+    localStorage.setItem('loggedIn', true);
+    window.location.href = 'game.html';
+} else {
+    alert('Nom d\'utilisateur ou mot de passe incorrect.');
+}
